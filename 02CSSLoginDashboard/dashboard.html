@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login HT</title>
+    <link rel="stylesheet" href="styleDash.css">
+</head>
+<script type="text/javascript">
+    function select(el) {
+        var x = document.getElementById(el);
+        if (x.class=="divCommentsSelected"){
+            x.class="divComments"
+        }
+        else{
+            x.class="divCommentsSelected"
+        }
+    }
+</script>
+
+<body>
+    <h1>Vendy Dashboard</h1>
+    <h2>Resumos do mês</h2>
+    <div class="divDash">
+        <p class="textDash">Vendas do mês</p>
+        <p class="numbDash">2000</p>
+        <p class="percentDash">30%</p>
+    </div>
+    <div class="divDash">
+        <p class="textDash">Inscritos do mês</p>
+        <p class="numbDash">10</p>
+        <p class="percentDash" style="color: rgb(255, 62, 62);">-30%</p>
+    </div>
+    <div class="divDash">
+        <p class="textDash">Cancelamentos do mês</p>
+        <p class="numbDash">50</p>
+        <p class="percentDash">-70%</p>
+    </div>
+    <h2>Últimos comentários</h2>
+    <div class="divCommentsSelected" onclick="select(this.id)" id="coment01">
+        <p class="textComments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor tortor in
+            libero ullamcorper porta. Vivamus iaculis enim ut ex fringilla, quis pharetra arcu aliquam. Phasellus non
+            lectus ornare, pellentesque erat sed, varius leo. Donec id scelerisque ipsum. Morbi leo magna, fermentum
+            eget metus non, gravida dictum nunc. In a risus at sem imperdiet molestie. Morbi consequat lacus at iaculis
+            ultricies. Donec maximus ante id justo iaculis, at fermentum erat varius. Duis venenatis tempus aliquet.
+            Maecenas vulputate libero nec odio malesuada, vitae tempor ante posuere.</p>
+    </div>
+    <div class="divComments" onclick="select(this.id)" id="coment02">
+        <p class="textComments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            porttitor tortor in libero ullamcorper porta. Vivamus iaculis enim ut ex fringilla, quis pharetra arcu
+            aliquam. Phasellus non lectus ornare, pellentesque erat sed, varius leo. Donec id scelerisque ipsum. Morbi
+            leo magna, fermentum eget metus non, gravida dictum nunc. In a risus at sem imperdiet molestie. Morbi
+            consequat lacus at iaculis ultricies. Donec maximus ante id justo iaculis, at fermentum erat varius. Duis
+            venenatis tempus aliquet. Maecenas vulputate libero nec odio malesuada, vitae tempor ante posuere.</p>
+    </div>
+</body>
+
+</html>

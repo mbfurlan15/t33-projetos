@@ -1,0 +1,66 @@
+body {
+    background-image: url("img/background.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    background-color: rgb(255, 255, 255, 0);
+    padding: 10px 15px 10px 15px;
+    border-style: ridge;
+    border-color: white;
+    width:100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: white;
+}
+
+button {
+    background:linear-gradient(to bottom right, deeppink, purple);
+    padding: 10px 15px 10px 15px;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+form {
+    background-color: #cccccc00;
+    padding: 0;
+    width: 15%;
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+a{ 
+    color: purple;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;  
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
