@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: sans-serif;
+}
+form{
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+}
+input{
+    display: block;
+    width: 80%;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 15px 20px 15px 20px;
+    border-radius: 35px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    display: block;
+    width: 80%;
+    border: none;
+    padding: 15px 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    color: white;
+    background-image: linear-gradient(to bottom right, deeppink, purple);/* 175deg  mesmo resultado*/
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 300px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    color: purple;
+    text-decoration: none; /* tirar o sublinado do link */
+}
