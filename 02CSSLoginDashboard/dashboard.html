@@ -11,12 +11,14 @@
 <script type="text/javascript">
     function select(el) {
         var x = document.getElementById(el);
-        if (x.class=="divCommentsSelected"){
-            x.class="divComments"
-        }
-        else{
-            x.class="divCommentsSelected"
-        }
+      // x.classList é um array (vetor) que contém as classes css do elemento
+      if (x.classList.contains("divCommentsSelected")) { // x.classList.contains é uma função que verifica já possui uma dada classe css
+          x.classList.remove("divCommentsSelected") // x.classList.remove é uma função que remove uma classe css do elemento
+          x.classList.add("divComments") // x.classList.add é uma função que adiciona uma classe css do elemento
+      } else {
+        x.classList.remove("divComments")
+        x.classList.add("divCommentsSelected")
+      }
     }
 </script>
 

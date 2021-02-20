@@ -17,10 +17,11 @@ h2{
 }
 .numbDash{
     font-size: xx-large;
+    font-weight: bolder;
     margin: 5px;
 }
 .percentDash{
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     color: rgb(70, 70, 255);
     margin: 5px;
@@ -44,6 +45,7 @@ div{
     background-color: rgb(255, 255, 255);
     width: 40%;
     margin-left: 35px;
+    cursor: pointer;
 }
 .divCommentsSelected{
     margin: 5px;
@@ -52,4 +54,5 @@ div{
     width: 40%;
     margin-left: 35px;
     box-shadow: 2px 2px 10px 0px rgb(70, 70, 255, .5);
+    cursor:pointer;
 }
