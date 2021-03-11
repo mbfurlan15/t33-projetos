@@ -1,4 +1,4 @@
-export const arr = ['Olá! :D','Sério','Tudo!','Peixe'];
-export function alertBox(ele){
-window.alert(ele)
+export  var arr = ['Olá! :D', 'Sério', 'Tudo!', 'Sei não em', 'Peixe'];
+export default function alertBox(ele) {
+    window.alert(ele)
 };

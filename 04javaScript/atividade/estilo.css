@@ -1,0 +1,29 @@
+button{
+    margin: -2px;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: auto;
+    vertical-align: middle;
+    width: 20%;
+    height: 5%;
+}
+button:active, button:hover{
+    background-color: lightslategray;
+    color: white;
+}
+form{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    font-weight: 100;
+    margin: auto; 
+    margin-top: 300px;
+    margin-bottom: 50px;
+    width: 50%;
+    font-size: x-large;
+}
+strong{
+    font-weight: bold;
+}
