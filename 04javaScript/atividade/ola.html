@@ -2,26 +2,26 @@
     <title>Olá Fábrica de Programador</title>
     <link rel="stylesheet" href="estilo.css">
     
-    <!-- <script>
-        const arr = ['Olá! :D', 'Sério', 'Tudo!', 'Sei não em', 'Peixe'];
-        function alertBox(ele) {
-            window.alert(ele)
-        };
-
-    </script> -->
 </head>
 
 <body>
     <form action="">
         <h1>Olá, seja muito bem-vindo ao <strong>Fábrica de Programador!</strong> O que você quer que eu te diga?</h1>
-        <button onclick="alertBox(arr[0])">Olá</button>
-        <button onclick="alertBox(arr[1])">Qualquer coisa</button>
-        <button onclick="alertBox(arr[2])">Tudo bem com você?</button>
-        <button onclick="alertBox(arr[3])">Será que chove hoje?</button>
-        <button onclick="alertBox(arr[4])">Nada</button>
+        <button type="button" >Olá</button>
+        <button type="button" >Qualquer coisa</button>
+        <button type="button" >Tudo bem com você?</button>
+        <button type="button" >Será que chove hoje?</button>
+        <button type="button" >Nada</button>
     </form>
 
+    <script type="module">
+        import {arr, alertBox, setup} from './script.js';
+        setup()
+    </script>
 </body>
+<<<<<<< HEAD
 <script type="module" src="./script.js">
     import {arr, alertBox} from './script.js';
 </script>
+=======
+>>>>>>> 6f9eb93ff59696e277116427b1ba58743bd729d4

@@ -1,4 +1,12 @@
 export  var arr = ['Olá! :D', 'Sério', 'Tudo!', 'Sei não em', 'Peixe'];
-export default function alertBox(ele) {
+export function alertBox(ele) {
     window.alert(ele)
 };
+
+export function setup(){
+    document.querySelectorAll("button").forEach((button,i) => {
+        button.addEventListener("click", function(){
+            alertBox(arr[i]);
+        });
+    });
+}
