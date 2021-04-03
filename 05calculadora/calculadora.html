@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora HT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="calculadora-menu">
+            <button>-</button>
+            <button>+</button> <br>
+        </div>
+        <input class="calculadora-resultado" type="text" id="calcViewer"><br>
+        <table class="calculadora-corpo">
+            <tr>
+                <td colspan="2" onclick="cleanText()">C</td>
+                <td onclick="insertText('/')">÷</td>
+                <td onclick="insertText('*')">x</td>
+            </tr>
+            <tr>
+                <td onclick="insertText('7')">7</td>
+                <td onclick="insertText('8')">8</td>
+                <td onclick="insertText('9')">9</td>
+                <td onclick="insertText('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="insertText('4')">4</td>
+                <td onclick="insertText('5')">5</td>
+                <td onclick="insertText('6')">6</td>
+                <td onclick="insertText('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="insertText('1')">1</td>
+                <td onclick="insertText('2')">2</td>
+                <td onclick="insertText('3')">3</td>
+                <td rowspan="2" class="igual" onclick="runEval()">=</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="zero" onclick="insertText('0')">0</td>
+                <td onclick="insertText('.')">,</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
