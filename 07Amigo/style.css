@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f0f0;
+       
+}
+/* Estilizando o chat */
+.chatImage{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.chat{
+    width: 90%;
+    margin: auto;
+
+}
+.msgCara{
+    padding: 15px 5px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(50, 50, 50);
+    display: block;
+    }
+.msgResposta{
+    padding: 15px 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: rgb(255, 251, 141);
+    color: rgb(50, 50, 50);
+    display: block;
+    }
+.textOptions{
+    font-size: smaller;
+    color: rgb(147, 147, 147);
+}
+.actions{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+/* Estilizando os botões */
+.actionOptions{
+    background-color: white;
+    color: rgb(50, 50, 50);
+    padding: 30px 15px;
+    margin: 0px;
+    border: 1px solid rgb(196, 196, 196);
+}
+.actionOptions:hover{
+    background-color: rgb(255, 251, 141);
+}
+.trashButton{
+    border-radius: 100%;
+    background-color: rgb(147, 147, 147);
+}
