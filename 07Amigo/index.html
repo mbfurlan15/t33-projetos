@@ -16,14 +16,15 @@
     </div>
     <div class="chat" id="chatAction">
         <span class="msgCara">Olá!, Me chamo Cara, prazer em conhecê-lo!</span>
-        
     </div>
     <div class="actions">
         <p class="textOptions">Escolha a sua resposta abaixo:</p><br>
         <Button class="actionOptions" onclick="activeButton(0)">Olá</Button>
         <button class="actionOptions" onclick="activeButton(1)">Não te gosto!</button>
         <button class="actionOptions" onclick="activeButton(2)">Está elegante hoje!</button><br>
-        <img src="icon/trash.svg" width="3%" onclick="clean()">
+        <button class="trashButton" onclick="clean()">
+           <img src="icon/trash.svg" width="20px">
+        </button>
     </div>
 
     <script src="script.js"></script>
