@@ -6,8 +6,12 @@ function activeButton(number) {
         case 0: {
             let a = document.getElementById("emoticon").src = "icon/rosto-feliz.svg"
             document.getElementById("chatAction").innerHTML += `
-        <span class="msgResposta" id="actionButton">Olá!</span>
-        <span class="msgCara" id="responseButton">E aí!</span>`
+        <div class="chatMsgResposta">  
+            <span class="msgResposta" id="actionButton">Olá!</span>
+        </div>
+        <div class="chatMsgCara">
+            <span class="msgCara" id="responseButton">E aí!</span>
+        </div>`
         }
         break;
         case 1: {

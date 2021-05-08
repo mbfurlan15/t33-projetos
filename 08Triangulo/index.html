@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function triangulo() {
+        let lado1 = parseFloat(document.getElementById("L01").value);
+        let lado2 = parseFloat(document.getElementById("L02").value);
+        let lado3 = parseFloat(document.getElementById("L03").value);
+        if (lado1 == lado2 && lado2 == lado3) {
+            document.getElementById("response").innerHTML = `Triângulo Equilátero`
+        } else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
+            document.getElementById("response").innerHTML = `Triângulo Isósceles`
+        } else {
+            document.getElementById("response").innerHTML = `Triângulo Escaleno`}
+    }
+</script>
+
+<body>
+    <input type="number" placeholder="Lado 1" id="L01">
+    <input type="number" placeholder="Lado 2" id="L02">
+    <input type="number" placeholder="Lado 3" id="L03">
+    <button onclick="triangulo()">CLASSIFICAR</button>
+    <p id="response"></p>
+</body>
+
+</html>

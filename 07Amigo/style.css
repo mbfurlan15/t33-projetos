@@ -5,6 +5,7 @@
 }
 body{
     background-color: #f0f0f0;
+    font-family: sans-serif;
 
     /* flexbox */
     display: -webkit-flex;
@@ -75,4 +76,14 @@ body{
     padding: 10px 12px;
     border-radius: 100%;
     background-color: rgba(147, 147, 147, 50);
+}
+.chatMsgCara{
+    text-align: left;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+.chatMsgResposta{
+    text-align: right;
+    max-width: 50%;
+    box-sizing: border-box;
 }
